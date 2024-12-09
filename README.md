@@ -20,11 +20,14 @@ This project explores a learnable positional encoding method to mitigate these i
 The solution consists of:
 
 1. Learnable Positional Encoding Layer:
+
 Adds position-specific embeddings to input sequences.
 Can generalize better than fixed sine/cosine encodings.
 2. Transformer Encoder:
+
 Stacked self-attention layers for sequence modeling.
 3. Fully Connected Layer:
+
 Aggregates sequence-level information for classification.
 
 # Main Components
@@ -44,5 +47,6 @@ The model is trained on the dummy dataset for 5 epochs with Cross-Entropy Loss a
 
 # Results
 The project successfully demonstrates:
+
 Integration of learnable positional encodings in a Transformer model.
 Training on a dummy dataset with minimal overfitting.
