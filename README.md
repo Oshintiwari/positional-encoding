@@ -22,10 +22,13 @@ The solution consists of:
 1. Learnable Positional Encoding Layer:
 
 Adds position-specific embeddings to input sequences.
+
 Can generalize better than fixed sine/cosine encodings.
+
 2. Transformer Encoder:
 
 Stacked self-attention layers for sequence modeling.
+
 3. Fully Connected Layer:
 
 Aggregates sequence-level information for classification.
