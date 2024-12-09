@@ -38,18 +38,22 @@ Learnable Positional Encoding:
 
 A layer that adds position-specific embeddings to the input sequence.
 Implemented using PyTorch nn.Parameter.
+
 Transformer Model:
 
 Composed of multiple self-attention layers for sequence representation.
 Uses the learnable positional encoding layer before passing data to attention layers.
+
 Dummy Dataset:
 
 Randomly generated data simulates sequential inputs of length 10 with 16 features per step.
 Training
+
 The model is trained on the dummy dataset for 5 epochs with Cross-Entropy Loss and Adam optimizer.
 
 # Results
 The project successfully demonstrates:
 
 Integration of learnable positional encodings in a Transformer model.
+
 Training on a dummy dataset with minimal overfitting.
