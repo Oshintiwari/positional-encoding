@@ -48,7 +48,8 @@ Uses the learnable positional encoding layer before passing data to attention la
 Dummy Dataset:
 
 Randomly generated data simulates sequential inputs of length 10 with 16 features per step.
-Training
+
+Training:
 
 The model is trained on the dummy dataset for 5 epochs with Cross-Entropy Loss and Adam optimizer.
 
