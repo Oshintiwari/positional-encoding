@@ -3,6 +3,7 @@
 # Learnable Positional Encoding with PyTorch
 
 Overview
+
 This project demonstrates the implementation of a learnable positional encoding method using PyTorch. Positional encoding is critical for sequential data processing in Transformer models since they lack an inherent sense of order. Instead of fixed encodings (like sine and cosine), this solution leverages learnable embeddings, which adapt to the data distribution and potentially enhance performance.
 
 The project also includes a basic Transformer-based model applied to a dummy dataset for training and evaluation.
